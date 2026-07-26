@@ -1,0 +1,52 @@
+{
+  "fallback_positive_concepts": ["image_reverse"],
+  "positive_concepts": {
+    "image_reverse": {
+      "weight": 1.0,
+      "phrases": [
+        "图片反推",
+        "反推这张图",
+        "画面解构",
+        "结构拆解词",
+        "画面结构拆开",
+        "反推提示词",
+        "参考图 prompt",
+        "可复制 prompt",
+        "完整提示词",
+        "构图、色彩、文字层级",
+        "校准图片反推 skill",
+        "更新南鸢图片反推 skill",
+        "检查南鸢图片反推 skill 版本"
+      ]
+    }
+  },
+  "negative_concepts": {
+    "direct_generation_or_edit": {
+      "weight": 1.0,
+      "exclusive": true,
+      "phrases": [
+        "直接生成一张",
+        "直接生成同风格变体",
+        "换背景",
+        "抠图",
+        "局部修改",
+        "不需要画面拆解",
+        "没有参考图"
+      ]
+    },
+    "other_analysis": {
+      "weight": 0.9,
+      "exclusive": true,
+      "phrases": [
+        "文化元素",
+        "扩展灵感",
+        "摄影建议",
+        "公众号文章",
+        "加入随机词库",
+        "更新所有 skill",
+        "更新另一个 skill",
+        "不要动南鸢图片反推"
+      ]
+    }
+  }
+}

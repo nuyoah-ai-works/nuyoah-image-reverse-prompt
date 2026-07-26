@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "cold_white_local_beauty_positive",
+      "observations": {
+        "inherent_skin": "warm_ivory",
+        "scope": "face_local",
+        "temperature": "cold_white",
+        "exposure": "high_soft_near_clipping",
+        "microcontrast": "reduced",
+        "facial_features": "preserved",
+        "background": "low_key_dark"
+      },
+      "expected_term": "冷白高曝光美颜",
+      "expected_mode": "direct"
+    },
+    {
+      "id": "warm_high_exposure_negative",
+      "observations": {
+        "scope": "face_local",
+        "temperature": "warm_white",
+        "exposure": "high_soft_near_clipping",
+        "microcontrast": "reduced",
+        "facial_features": "preserved"
+      },
+      "expected_term": null,
+      "expected_mode": "narrow_description"
+    },
+    {
+      "id": "global_high_key_negative",
+      "observations": {
+        "scope": "global",
+        "temperature": "neutral_white",
+        "exposure": "high_key_global",
+        "microcontrast": "normal",
+        "facial_features": "preserved",
+        "background": "bright"
+      },
+      "expected_term": null,
+      "expected_mode": "narrow_description"
+    },
+    {
+      "id": "cool_skin_normal_exposure_negative",
+      "observations": {
+        "inherent_skin": "cool_white",
+        "scope": "face_local",
+        "temperature": "cool_white",
+        "exposure": "normal",
+        "microcontrast": "normal",
+        "facial_features": "preserved"
+      },
+      "expected_term": null,
+      "expected_mode": "inherent_attribute_only"
+    },
+    {
+      "id": "cold_white_features_lost_negative",
+      "observations": {
+        "scope": "global",
+        "temperature": "cold_white",
+        "exposure": "overexposed",
+        "microcontrast": "very_low",
+        "facial_features": "lost"
+      },
+      "expected_term": null,
+      "expected_mode": "narrow_description"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "profile": "fashion_poster_portrait",
+  "required_fields": [
+    "图像类型",
+    "风格参考线索",
+    "品牌气质",
+    "清晰度/遮挡地图",
+    "色彩系统",
+    "构图节奏",
+    "失败风险",
+    "视觉焦点",
+    "生成优先级",
+    "图形元素功能",
+    "主视觉",
+    "图层顺序",
+    "版式层级",
+    "版式结构地图",
+    "印刷/材质质感",
+    "人物表情/动作关系",
+    "主体可见性",
+    "字体/文字系统",
+    "视觉权重",
+    "可直接复制的完整提示词"
+  ],
+  "forbidden_public_field_labels": [
+    "brand_mood",
+    "clarity_occlusion_map",
+    "color_system",
+    "composition_rhythm",
+    "failure_risks",
+    "focal_points",
+    "generation_priority",
+    "graphic_elements",
+    "key_visual",
+    "layer_stack",
+    "layout_hierarchy",
+    "layout_map",
+    "material_print",
+    "poster_expression",
+    "subject_visibility",
+    "typography_text",
+    "visual_weight",
+    "filter_signature",
+    "prompt"
+  ],
+  "cases": [
+    {
+      "id": "apple_youth_magazine_poster",
+      "image_dimensions": {
+        "width": 736,
+        "height": 920,
+        "expected_ratio": "4:5"
+      },
+      "expected_prompt_concepts": [
+        "真人摄影主视觉",
+        "近距离广角肖像",
+        "细密胶片颗粒",
+        "脸部约占画面55%",
+        "斜看画面左侧",
+        "嘴唇微张",
+        "双手在头顶形成对称弧形",
+        "顶部约30%",
+        "图层顺序为",
+        "视觉权重依次为"
+      ],
+      "structure_to_prompt_links": [
+        {
+          "field": "品牌气质",
+          "prompt_evidence": ["千禧复古青年杂志海报"]
+        },
+        {
+          "field": "印刷/材质质感",
+          "prompt_evidence": ["细密胶片颗粒", "杂志扫描", "低清数码压缩质感"]
+        },
+        {
+          "field": "人物表情/动作关系",
+          "prompt_evidence": ["斜看画面左侧", "嘴唇微张", "双手在头顶形成对称弧形"]
+        },
+        {
+          "field": "版式结构地图",
+          "prompt_evidence": ["顶部约30%", "中部约45%", "底部约25%"]
+        },
+        {
+          "field": "图层顺序",
+          "prompt_evidence": ["图层顺序为"]
+        },
+        {
+          "field": "失败风险",
+          "prompt_evidence": ["避免完整居中的普通美妆头像"]
+        }
+      ],
+      "forbidden_prompt_patterns": [
+        "3:4",
+        "50–70mm",
+        "good",
+        "morning",
+        "it’s your day"
+      ]
+    }
+  ]
+}

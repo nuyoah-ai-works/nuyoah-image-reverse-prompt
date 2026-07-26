@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "name": "nuyoah-image-reverse-prompt",
+  "displayName": "南鸢图片反推",
+  "version": "0.1.0",
+  "license": "MIT",
+  "source": "https://github.com/nuyoah-ai-works/nuyoah-image-reverse-prompt",
+  "sourceCommit": "83beb8eefacb5bdc0462cbb8128441d862234201",
+  "releaseDigest": "438683e2a9d48b4449fb928e7bda672ed5a1500686a0a4cd904e070aecd8e01f",
+  "publishedAt": "2026-07-26T06:45:09Z",
+  "homepage": "https://knowledge.nuyoahonline.com/skills/nuyoah-image-reverse-prompt",
+  "installCommand": "npx skills add nuyoah-ai-works/nuyoah-image-reverse-prompt -g -y",
+  "updateCommand": "npx skills update nuyoah-image-reverse-prompt -g -y",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 10,
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2602,
+      "sha256": "f07dfa2a6df1ad6749398e58bb9f981fc2ce4a4c74357c782cf0f4c8b346c397"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "b5fde44b81590f0f06dd9d1af6a13a79eb322ba219c2578369f5b258fdf07e9b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1241,
+      "sha256": "7b4e17dc808bf0f525d731d7a5d19365a957813a0ed2f3f8721c3cebd3717faf"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5777,
+      "sha256": "18c1294cb7fc8f3dff403ff1cd7904a4aceeaff4778f1b0eb369a14396d0a491"
+    },
+    {
+      "path": "agents/interface.yaml",
+      "bytes": 701,
+      "sha256": "b9813dca8f43c8b70ad89660f7ed29a838b32d12a3c52aa94d84bce8eb597bf1"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 303,
+      "sha256": "6288e8edececb68098df2b36333f8eb680c0adceedeee666c114982af1f85844"
+    },
+    {
+      "path": "evals/fashion_poster_cases.json",
+      "bytes": 2582,
+      "sha256": "3b22755f1a939efb916a3f3a2996ca9baf96a681d516c1dcb65b3aa4cce58c66"
+    },
+    {
+      "path": "evals/imaging_signature_cases.json",
+      "bytes": 1923,
+      "sha256": "76f5bb3761ae478a6e22f0bb7e87cfee42dfd06b6be4ac613cabf63b1803b708"
+    },
+    {
+      "path": "evals/semantic_config.json",
+      "bytes": 1240,
+      "sha256": "d8665a5b4e6ceb334f4d523680c662420327e9b440314aa585f652f8bcbb5a08"
+    },
+    {
+      "path": "evals/spatial_relation_cases.json",
+      "bytes": 5080,
+      "sha256": "b9938299e4361c848e3cb6b40eab6acca27ce42fb0ccc7418ad0e9e2a1552d96"
+    },
+    {
+      "path": "evals/trigger_cases.json",
+      "bytes": 1412,
+      "sha256": "31500dcbf9a255551b1db7d1fd3bf7e01b8b3cb2845e39c687b55d73096d4b6c"
+    },
+    {
+      "path": "references/calibration-loop.md",
+      "bytes": 5620,
+      "sha256": "05488c55b1e1d2e2bb2af88e2e80719059e8178db3ed1a76ffdda7bf526da625"
+    },
+    {
+      "path": "references/image-type-profiles.md",
+      "bytes": 25793,
+      "sha256": "fc6ed4a1c17f1142bd541b58ba8335414956419305501ac3a8a6d4d8578525dd"
+    },
+    {
+      "path": "references/imaging-signature-taxonomy.md",
+      "bytes": 4449,
+      "sha256": "256b6bf7a496a45ad2fe89337eacf8f5a5abd3dda8dad9cdbb432f6f1a197b42"
+    },
+    {
+      "path": "references/reverse-output-contract.md",
+      "bytes": 13376,
+      "sha256": "6119141c110a05859987bf98f7a9edda4c1aed1b1d5051320506072e62640e81"
+    }
+  ]
+}
